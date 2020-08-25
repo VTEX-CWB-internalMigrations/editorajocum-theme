@@ -7,10 +7,13 @@
       // "flex-layout.row#banner-featured",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "rich-text#shelfTitle",
+       "flex-layout.row#featured1-grid",
+       "rich-text#shelfTitle",
       "flex-layout.row#shelf",
+      "flex-layout.row#featured2-grid",
       "rich-text#shelfTitle2",
       "flex-layout.row#shelf2",
+      "flex-layout.row#featured3-grid",
       "rich-text#shelfTitle3",
       "flex-layout.row#shelf3",
       "rich-text#shelfTitle4",
@@ -18,9 +21,9 @@
       // "flex-layout.row#banners-segmented",      
       // "flex-layout.row#shelf-special",
       // "flex-layout.row#bannerMiddle-row",
-      "flex-layout.row#featured1-grid",
-      "flex-layout.row#featured2-grid",
-      "flex-layout.row#featured3-grid",
+      
+      
+      
       "flex-layout.row#deals"
       //"flex-layout.row#featured4-grid"
       // "tab-layout#shelf-tabs",
