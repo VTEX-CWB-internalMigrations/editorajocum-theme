@@ -321,11 +321,6 @@
   max-height: 105px !important;
 }
 
-.infoCardImage--info-card-featured{
-  height: 90%;
-  max-height: 190px;
-}
-
 .productImagesGallerySlide{
   padding: 0px 35px;
 }
@@ -412,7 +407,6 @@
   }
 
   .infoCardImage--info-card-featured{
-    height: 530px;
     max-height: inherit;
   }
 }

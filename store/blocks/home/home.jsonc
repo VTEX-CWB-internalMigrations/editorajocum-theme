@@ -632,9 +632,18 @@
   "slider-layout#brands": {
     "props": {
       "blockClass": "brandsSlider",
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "showPaginationDots": "never"
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 8,
+        "phone": 2
+     },
+     "infinite": false,
+     "fullWidth": false,
+     "showNavigationArrows": "never",
+     "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+     }
     }
   },
   "list-context.image-list#brands": {
