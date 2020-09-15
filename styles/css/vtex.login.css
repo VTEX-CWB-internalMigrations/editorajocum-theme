@@ -1,10 +1,10 @@
 .container{
-    background: #09609f;
+    background: #15b103;
     margin-bottom: 20px;
 }
 
 .container :global(.vtex-button){
-    background: #09609f;
+    background: #15b103;
 }
 
 .profileIcon--login-desktop{
