@@ -637,7 +637,7 @@
       "blockClass": "brandsSlider",
       "itemsPerPage": {
         "desktop": 8,
-        "tablet": 8,
+        "tablet": 2,
         "phone": 2
      },
      "infinite": false,
