@@ -4,6 +4,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       // "flex-layout.row#banner-specification",
+      "product-description",
       "flex-layout.row#product-description",
       "shelf.relatedProducts#productPage",
       "product-reviews",
