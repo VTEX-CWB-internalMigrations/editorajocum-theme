@@ -63,9 +63,7 @@
   margin: 1em 0 0;
 }
 
-.productDescriptionTitle{
-  display:none;
-}
+
 
 .carouselGaleryThumbs .swiper-slide{
   margin: 0;
@@ -183,7 +181,7 @@
 }
 
 .specificationsTitle{
-  display: flex;
+    display: none;
     justify-content: center;
     width: 100%;
     align-items: center;
@@ -356,6 +354,17 @@
 
 .productImagesThumb{
   overflow: hidden;
+}
+
+.productDescriptionTitle{
+  display: block;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 10px 20px;
+  background: #15b103;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 @media only screen and (min-width: 40em){
