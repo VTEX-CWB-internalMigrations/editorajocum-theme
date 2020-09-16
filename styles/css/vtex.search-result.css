@@ -47,9 +47,10 @@
 
 .galleryTitle--layout{
     padding: 10px;
-    color: #ffffff;
-    background: #15b103;
+    color: #474b4f;
+    background: #ececec;
     font-weight: 100;
+    margin: 0;
 }
 
 .galleryTitle--layout{

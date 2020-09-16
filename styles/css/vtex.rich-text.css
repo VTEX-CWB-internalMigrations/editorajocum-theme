@@ -306,9 +306,9 @@
 .paragraph--shelfTitle::after{
   border-radius: 100px;
   content: "";
-  width: 30%;
+  width: 100%;
   height: 3px;
-  background: #15b103;
+  background:  #d2d2d2;
   display: block;
   bottom: 0px;
   z-index: 99;
