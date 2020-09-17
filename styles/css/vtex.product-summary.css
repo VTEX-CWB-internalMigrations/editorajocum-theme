@@ -52,6 +52,10 @@
     text-align: left;
 }
 
+.nameContainer{
+    margin-top: 13px;
+}
+
 .productBrand , .sellingPrice{
     font-family: nunito;
 }

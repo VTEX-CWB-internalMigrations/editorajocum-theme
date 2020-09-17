@@ -31,20 +31,13 @@
         color: #ff6600;
     }
     */
-    .label{
-        color: #fff;
-        font-size: 0px;
-        display: none;
-    }
+
     .container{
         background: #10588d00;
         margin-bottom: 0px;
         padding: 5px 0px;
     }
     .label{
-        display: none;
-    }
-    .buttonLink :global(.vtex-button){
-        max-width: 30px;
+        padding: 10px;
     }
 }

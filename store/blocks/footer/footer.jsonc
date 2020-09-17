@@ -99,7 +99,7 @@
   },
   "flex-layout.col#about-us":{
     "children":[
-      "image#logo-footer",
+      //"image#logo-footer",
       "rich-text#aboutUs-footer"
     ],
     "props":{

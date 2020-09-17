@@ -50,7 +50,7 @@
 }
 
 .flexRow--footer-first-row{
-    background: #15b103;
+    background: #d2d2d2;
 }
 
 .flexRow--shelfBlock{
@@ -98,6 +98,7 @@
     background: #ffffff;
     padding: 5px 10px;
 }
+
 
 .flexRow--deals{
     display: none;
