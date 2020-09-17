@@ -63,7 +63,13 @@
   margin: 1em 0 0;
 }
 
+.infoCardSubhead , .infoCardHeadline , .infoCardCallActionContainer :global(.vtex-button__label){
+  font-family: nunito;
+}
 
+.sellingPrice , .productBrand , .buyButtonText , .productDescriptionTitle , .productDescriptionText , .specificationsTitle:global(.vtex-tab__button) , .specificationsTab{
+  font-family: nunito;
+}
 
 .carouselGaleryThumbs .swiper-slide{
   margin: 0;
@@ -73,6 +79,7 @@
   opacity: .6;  
   transition: .2s linear;
 }
+
 .carouselGaleryThumbs .swiper-slide:hover{
   opacity:1;
 }

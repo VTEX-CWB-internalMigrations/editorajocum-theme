@@ -52,6 +52,10 @@
     text-align: left;
 }
 
+.productBrand , .sellingPrice{
+    font-family: nunito;
+}
+
 .nameContainer--shelf-nameProduct-featured{
     padding: 0px;
     min-height: 10px;

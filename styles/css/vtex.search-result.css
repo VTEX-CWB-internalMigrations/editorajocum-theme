@@ -53,8 +53,14 @@
     margin: 0;
 }
 
+
+.link , .filterMessage , .filterTitle , .categoryItemChildren , .filterItem{
+    font-family: nunito;
+}
+
 .galleryTitle--layout{
     margin: 0px;
+    font-family: nunito;
 }
 
 .filterMessage{

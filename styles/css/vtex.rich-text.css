@@ -290,13 +290,16 @@
 }
 
 .paragraph--shelfTitle{
-    color: #8d8d8d;
     font-weight: 100;
     font-size: 30px;
     text-align: left;
     padding: 0px 30px;
     position: relative;
 
+}
+
+.paragraph , .link{
+  font-family: nunito;
 }
 
 .link--footer-textDefault{

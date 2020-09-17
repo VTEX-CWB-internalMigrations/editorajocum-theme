@@ -99,6 +99,10 @@
     padding: 5px 10px;
 }
 
+.flexRow--deals{
+    display: none;
+}
+
 .flexRowContent--mainInfos .stretchChildrenWidth:first-child{
     margin-right: 0px;
 }
