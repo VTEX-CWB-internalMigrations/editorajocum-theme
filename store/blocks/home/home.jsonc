@@ -542,7 +542,6 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
-      "product-summary-installments",
       // "product-summary-buy-button"
       "rich-text#buyButtonShelf"
     ]
