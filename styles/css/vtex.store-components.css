@@ -248,8 +248,8 @@
   content: "";
   display: block;
   height: 3px;
-  background: #15b103;
-  width: 200px;
+  background: #d2d2d2;
+  width: 100%;
   border-radius: 100px;
   margin-top: 10px;
 }
