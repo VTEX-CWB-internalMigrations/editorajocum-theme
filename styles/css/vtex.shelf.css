@@ -38,10 +38,10 @@
     border-radius: 100px;
     content: "";
     width: 30%;
-    height: 2px;
-    background: #f7eb14;
+    height: 3px;
+    background: #d2d2d2;
     display: block;
-    bottom: 0px;
+    bottom: 0;
     z-index: 99;
     margin: 3px auto;
 }
