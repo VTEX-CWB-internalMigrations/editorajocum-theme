@@ -78,7 +78,12 @@
 .section--category{
   display: flex;
   flex-direction: column;
-  max-width: 1055px;
+  max-width: 930px;
+  margin: 0px auto;
+}
+
+.firstLevelList{
+  padding: 10px;
 }
 
 .departmentLink{
@@ -97,6 +102,11 @@
 .departmentLink , .firstLevelLink, .secondLevelLink{
   font-family: nunito;
 }
+
+.itemContainer--category{
+  max-width: 1100px;
+}
+
 
 @media only screen and (min-width: 40em){
     /* Hover */

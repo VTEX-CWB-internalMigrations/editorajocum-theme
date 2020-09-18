@@ -158,12 +158,18 @@
   "flex-layout.col#payment":{
     "children":[
       "rich-text#footer-payment-title",
-      "accepted-payment-methods"
+      "image#accepted-payments"
     ],
     "props":{
       "blockClass":"content-footer"
     }
   },
+  "image#accepted-payments":{
+    "props":{
+      "src": "https://editorajocum.vteximg.com.br/arquivos/payments.png"
+    }
+  },
+  
   "rich-text#footer-payment-title":{
     "props":{
       "text": "PAGAMENTOS",
