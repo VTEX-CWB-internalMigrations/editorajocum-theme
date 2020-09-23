@@ -36,6 +36,10 @@
     margin: 2px 0;
 }
 
+.styledLinkContainer--menu-mobile-footer{
+    padding: 7px 0px;
+}
+
 .styledLinkContent--mobile-menu{
     font-family: nunito;
 }
