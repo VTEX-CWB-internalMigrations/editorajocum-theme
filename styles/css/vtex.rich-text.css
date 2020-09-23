@@ -38,6 +38,10 @@
   justify-content: center;
 }
 
+.container--text-copyright .paragraph{
+  padding: 0px 30px;
+}
+
 .container--link-first-intitutional .link--text-copyright,
 .container--link-first-intitutional .link--footer-title,
 .container--link-first-intitutional .link--link-first-intitutional{
