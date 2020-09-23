@@ -84,7 +84,7 @@
       "product-summary"
     ],
     "props": {
-      "type": "popup",
+      "type": "sidebar",
       "showRemoveButton": true,
       "showDiscount": true,
       "showSku": true,
@@ -182,8 +182,7 @@
   "drawer": {
     "children": [
       "flex-layout.row#drawerRow",
-      "login",
-      "vtex.menu@2.x:menu#header-mobile"
+      "login"
     ]
   },
   "flex-layout.row#drawerRow":{
@@ -193,7 +192,7 @@
   },
   "flex-layout.col#drawerCol":{
     "children":[
-      
+      "vtex.menu@2.x:menu#header-mobile"
     ]
   },
 

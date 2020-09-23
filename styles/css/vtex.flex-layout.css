@@ -147,7 +147,12 @@
     background: #ececec;
 }
 .flexRow--breadcrumb-box{
-    background: rgb(246, 246, 246);
+}
+
+.flexColChild--payment-methods{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 40em){

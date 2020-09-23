@@ -254,6 +254,14 @@
   margin-top: 10px;
 }
 
+.imageElement{
+  max-width: 220px;
+}
+
+.imageElement--lets-encrypt{
+  max-width: 100px;
+}
+
 .sellingPriceValue{
   font-weight: 600;
   font-size: 22px;

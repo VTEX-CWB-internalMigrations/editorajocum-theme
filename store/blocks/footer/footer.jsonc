@@ -217,8 +217,10 @@
     "children": [
       "rich-text#institutionalTitleMobile",
       "vtex.menu@2.x:menu#footer-mobile",
-      "accepted-payment-methods",
+      //"accepted-payment-methods",
       "social-networks",
+      "image#lets-encrypt",
+      "image#accepted-payments",
       "rich-text#footer-mobile"
     ],
     "props": {
@@ -226,6 +228,13 @@
       "paddingTop": 4,
       "paddingBottom": 4,
       "rowGap": 4
+    }
+  },
+
+  "image#lets-encrypt":{
+    "props":{
+      "blockClass": "lets-encrypt",
+      "src": "https://editorajocum.vteximg.com.br/arquivos/lets-encrypt.png"
     }
   },
 
