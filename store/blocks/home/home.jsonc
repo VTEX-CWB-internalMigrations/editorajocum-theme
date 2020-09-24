@@ -12,6 +12,7 @@
       "rich-text#shelfTitle3",
       "flex-layout.row#shelf3",
       "flex-layout.row#featured2-grid",
+      "rich-text#shelfTitle4",
       "list-context.image-list#brands",
       "flex-layout.row#featured3-grid"
 

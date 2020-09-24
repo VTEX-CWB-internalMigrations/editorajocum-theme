@@ -336,7 +336,7 @@
 
 .swiperCaret .caretIcon{
   padding: 4px 0px 4px 4px;
-  color: #0060a3;
+  color: #000000;
   border-radius: 3px;
 }
 
@@ -382,7 +382,16 @@
   border-top-right-radius: 10px;
 }
 
+.infoCardSubhead--info-card-featured{
+  font-size: 13px;
+}
+
 @media only screen and (min-width: 40em){
+
+  .infoCardSubhead--info-card-featured{
+    font-size: 15px;
+  }
+
   .resultsList{
     z-index: 99999999;
     position: fixed;
