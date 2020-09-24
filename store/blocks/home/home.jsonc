@@ -191,7 +191,7 @@
     }
   },
   // Shelf Primary
-  "list-context.product-list#home-1": {
+  "list-context.product-list#home-one": {
     "blocks": [
       "product-summary.shelf#featured"
     ],
