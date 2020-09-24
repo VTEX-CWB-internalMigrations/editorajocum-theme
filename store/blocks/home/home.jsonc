@@ -135,7 +135,7 @@
   //SHELF ROWS
   "flex-layout.row#shelf": {
     "children": [
-      "list-context.product-list#home-1"
+      "list-context.product-list#home-one"
     ],
     "props":{
       "blockClass": "shelfBlock"
