@@ -14,7 +14,7 @@
       "flex-layout.row#featured2-grid",
       "rich-text#shelfTitle4",
       "list-context.image-list#brands",
-      "flex-layout.row#featured3-grid"
+      "flex-layout.row#featured3-grid",
 
 
       // "flex-layout.row#banner-featured",
@@ -35,7 +35,7 @@
       //"flex-layout.row#deals"
       //"flex-layout.row#featured4-grid"
       // "tab-layout#shelf-tabs",
-      // "newsletter"
+      "newsletter"
     ]
   },
   // Caroussel
@@ -651,11 +651,11 @@
     }
   },
   // Newsletter
-  "newsletter": {
+  "newsletter":{
     "props": {
-      "label": "Cadastre-se em nossa newsletter e receba notícias sobre a Brasil Tática e o mercado de armas",
-      "submit": "Cadastrar",
-      "blockClass": "content-newsletter"
+      "label": "Deixe o seu e-mail, receba novidades e promos exclusivas",
+      "placeholder": "seu e-mail",
+      "submit": "Enviar"
     }
   },
   "slider-layout#brands": {
