@@ -437,11 +437,26 @@
   }
   
   .form {
-  font-size: 14px;
-  max-width: 60%;
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .newsletter .form :global(.vtex-button){
+    width: 100%;
+    margin-top: 10px;
   }
 
 @media only screen and (min-width: 40em){
+
+  .newsletter .form :global(.vtex-button){
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .form {
+    font-size: 14px;
+    max-width: 60%;
+    }
 
   .infoCardSubhead--info-card-featured{
     font-size: 15px;
