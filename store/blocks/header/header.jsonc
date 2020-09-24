@@ -49,7 +49,7 @@
       "header-spacer",
       "search-bar",
       "login",
-      "minicart"
+      "minicart.v2"
     ],
     "props":{
       "sticky": true

@@ -426,16 +426,12 @@
   color: #fff;
   border: none;
   }
-  
+}
   .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: #000000;
   font-size: 16px;
   }
-  
-  .inputGroup :global(.vtex-button) {
 
-  }
-  
   .buttonContainer {
   padding-top: 0px;
   }
