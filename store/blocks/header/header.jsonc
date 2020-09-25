@@ -49,12 +49,56 @@
       "header-spacer",
       "search-bar",
       "login",
+      "vtex.menu@2.x:menu#faqMenu",
       "minicart.v2"
     ],
     "props":{
       "sticky": true
     }  
   },
+
+  "vtex.menu@2.x:menu#faqMenu": {
+    "children": [
+      "menu-item#faqItem",
+      "image#faqImage"
+    ],
+    "props":{
+      "blockClass": "faq-menu"
+    }
+  },
+  "image#faqImage": {
+    "props": {
+      "src": "https://editorajocum.vteximg.com.br/arquivos/faq-menu.png",
+      "blockClass": "iconSearch"
+    }
+  },
+  "menu-item#faqItem": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#faqItens"
+    ],
+    "props": {
+      "blockClass": "faqItem"
+    }
+  },
+  "vtex.menu@2.x:submenu#faqItens": {
+    "children": [
+      "vtex.menu@2.x:menu#faqItens"
+    ]
+  },
+  "vtex.menu@2.x:menu#faqItens": {
+    "children": [
+      "menu-item#teste"
+    ],
+    "props": {
+      "blockClass": "faqItens"
+    }
+  },
+  "menu-item#teste": {
+    "props": {
+      "text": "Test"
+    }
+  },
+
   "logo#desktop": {
     "props": {
       "title": "Logo",
@@ -104,7 +148,6 @@
       "vtex.menu@2.x:menu#brands-menu"
     ],
     "props" :{
-      "sticky": true,
       "blockClass": "category-menu-background"
     }
   },

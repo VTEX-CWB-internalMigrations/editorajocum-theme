@@ -130,3 +130,51 @@
     width: 100%;
 }
 
+.menuContainer--faq-menu{
+    width: 40px;
+    margin-left: 30px;
+}
+
+.menuItem--faqItem , .styledLinkContainer--faqItem{
+    width: 40px;
+}
+
+.menuContainerNav--faqItens , .menuContainer--faqItens{
+    width: 100%;
+}
+
+.menuItem--faqItem .submenuWrapper--isOpen{
+    background: #f4f4f4;
+}
+
+.menuContainer--faq-menu{
+    cursor: pointer;
+}
+
+.menuContainer--faqItens .styledLinkContent{
+    font-family: nunito;
+}
+
+@media only screen and (min-width: 640px) {
+    .menuItem--searchIcon , .menuItem--faqItem{
+        position: absolute
+    }
+
+    .menuItem--faqItem .submenuContainer{
+        left: -50px;
+    }
+    .menuItem--searchIcon .submenuWrapper, .menuItem--faqItem .submenuWrapper{
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .menuItem--faqItem .submenuWrapper{
+        width: 200px;
+        text-align: left;
+    }
+
+    .styledLinkContent--faqItens{
+        font-size: 17px;
+        margin: 3px 0px;
+    }
+}
+

@@ -394,17 +394,20 @@
   }
   
   .newsletter .container {
-  padding: 60px 10px;
-  font-size: 14px;
+    padding: 60px 10px;
+    font-size: 14px;
   }
   
   .label {
-  font-size: 130%;
-  max-width: 150%;
-  text-align: left;
-  color: #000000;
-  
+    font-size: 130%;
+    max-width: 150%;
+    text-align: left;
+    color: #000000;
   }
+
+  .imageElement--iconSearch{
+    width: 30px;
+}
   
   @media only screen and (min-width: 640px) {
   .newsletter .container {
