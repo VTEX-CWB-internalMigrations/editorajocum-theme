@@ -54,7 +54,7 @@
 
 .menuContainerNav--brand-class{
     width: 85px;
-    border-bottom: 1px solid #005f9f;
+    border-bottom: 1px solid #15b103;
 }
 
 .menuContainer--brand-class{
@@ -76,7 +76,7 @@
 .menuContainer--brand-class .styledLink{
     font-weight: 600;
     font-size: 15px;
-    color: #0060a3;
+    color: #15b103;
     text-transform: Capitalize;
 }
 
@@ -100,7 +100,7 @@
 
 .menuContainerNav--brand-class{
     width: 85px;
-    border-bottom: 1px solid #005f9f;
+    border-bottom: 1px solid #15b103;
 }
 
 .submenuContainer--brands-submenu .menuContainer .menuItem{
