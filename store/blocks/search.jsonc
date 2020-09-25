@@ -2,9 +2,14 @@
   "store.search": {
     "blocks": ["search-result-layout"],
     "props": {
-      "context":{
-        "maxItemsPerPage":20,
-        "installmentCriteria": "MAX_WITH_INTEREST"
+      "context": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 50,
+        "maxItemsDepartment": 100,
+        "maxItemsCategory": 100,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -13,8 +18,14 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "maxItemsPerPage": 20,
-        "installmentCriteria": "MAX_WITH_INTEREST"
+        "orderByField": "OrderByTopSaleDESC",
+        "facetsBehavior": "Static",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 50,
+        "maxItemsDepartment": 100,
+        "maxItemsCategory": 100,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -22,9 +33,13 @@
   "store.search#department": {
     "blocks": ["search-result-layout"],
     "props": {
-      "context":{
-        "maxItemsPerPage":20,
-        "installmentCriteria": "MAX_WITH_INTEREST"
+      "context": {
+        "orderByField": "OrderByTopSaleDESC",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 50,
+        "maxItemsDepartment": 100,
+        "maxItemsCategory": 100,
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -32,9 +47,13 @@
   "store.search#category": {
     "blocks": ["search-result-layout"],
     "props": {
-      "context":{
-        "maxItemsPerPage":20,
-        "installmentCriteria": "MAX_WITH_INTEREST"
+      "context": {
+        "orderByField": "OrderByPriceASC",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 50,
+        "maxItemsDepartment": 100,
+        "maxItemsCategory": 100,
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -42,9 +61,13 @@
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
     "props": {
-      "context":{
-        "maxItemsPerPage":20,
-        "installmentCriteria": "MAX_WITH_INTEREST"
+      "context": {
+        "orderByField": "OrderByPriceASC",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 50,
+        "maxItemsDepartment": 100,
+        "maxItemsCategory": 100,
+        "simulationBehavior": "skip"
       }
     }
   },
