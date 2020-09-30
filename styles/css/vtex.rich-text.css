@@ -49,6 +49,7 @@
   width: auto !important;
   text-decoration: none;
   padding-bottom: .5em;
+  font-weight: 800;
 }
 
 .container--link-intitutional .link--text-copyright,
@@ -113,7 +114,7 @@
 }
 
 .container--title-intitutional .paragraph{
-  border-left: 5px solid #f7eb14;
+  border-left: 5px solid #15b103;
   font-weight: bold;
   font-size: 1.2em;
   padding: 10px;
@@ -360,10 +361,10 @@
   padding: 15px;
 }
 
-.headingLevel5--content-intitutional{
+.headingLevel5--content-intitutional , .heading--content-intitutional{
   font-weight: 600;
   margin: 25px 0px 10px;
-  color: #025792;
+  color: #15b103;
 }
 
 .paragraph--content-intitutional{
