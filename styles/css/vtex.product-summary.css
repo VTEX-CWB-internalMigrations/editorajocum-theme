@@ -56,6 +56,15 @@
     margin-top: 13px;
 }
 
+.brandName{
+    font-weight: 800;
+}
+
+.description{
+    text-align: left;
+    font-family: nunito;
+}
+
 .productBrand , .sellingPrice{
     font-family: nunito;
 }

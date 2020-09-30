@@ -266,6 +266,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
+      "product-summary-description",
       "product-summary-space",
       "product-summary-price",
       "product-summary-buy-button"

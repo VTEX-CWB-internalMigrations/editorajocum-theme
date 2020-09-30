@@ -264,6 +264,7 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
+      "product-summary-description",
       "product-summary-price",
       "product-identifier.summary",
       "product-summary-buy-button"
