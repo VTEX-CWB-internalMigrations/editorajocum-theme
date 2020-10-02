@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "carousel#default",
-      "carousel#mobile",
+      //"carousel#mobile",
       "rich-text#shelfTitle",
       "flex-layout.row#shelf",
       "carousel#default2",

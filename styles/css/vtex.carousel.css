@@ -21,14 +21,6 @@
 }
 */
 
-.sliderRoot--desktopCarousel{
-  display: none;
-}
-
-.arrowsContainerWrapper--desktopCarousel{
-  display: none;
-}
-
 .sliderRoot--mobileCarousel{
   display: block;
 }
@@ -52,14 +44,6 @@
 @media only screen and (min-width: 630px){
   .sliderRoot--desktopCarousel{
     display: block;
-  }
-  
-  .sliderRoot--mobileCarousel{
-    display: none;
-  }
-
-  .arrowsContainerWrapper--mobileCarousel{
-    display: none;
   }
 
   .arrowsContainerWrapper--desktopCarousel{
