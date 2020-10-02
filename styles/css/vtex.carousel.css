@@ -40,13 +40,3 @@
     max-height: initial !important;
   }
 }
-
-@media only screen and (min-width: 630px){
-  .sliderRoot--desktopCarousel{
-    display: block;
-  }
-
-  .arrowsContainerWrapper--desktopCarousel{
-    display: block;
-  }
-}
