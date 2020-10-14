@@ -154,7 +154,10 @@
 
   "vtex.menu@2.x:menu#brands-menu":{
     "children":[
-      "menu-item#brands"
+      "menu-item#brands",
+      "menu-item#lancamentos",
+      "menu-item#ofertas",
+      "menu-item#revendedor"
     ],
     "props":{
       "blockClass": "brand-class"
@@ -175,6 +178,51 @@
         "noFollow": true,
         "tagTitle": "Autores",
         "text": "Autores"
+      }
+    }
+  },
+  "menu-item#lancamentos":{
+    "props":{
+      "id": "menu-item-category-lancamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Lançamentos",
+        "text": "Lançamentos"
+      }
+    }
+  },
+  "menu-item#ofertas":{
+    "props":{
+      "id": "menu-item-category-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+  "menu-item#revendedor":{
+    "props":{
+      "id": "menu-item-category-revendedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Seja um Revendedor",
+        "text": "Seja um Revendedor"
       }
     }
   },

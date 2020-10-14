@@ -7,8 +7,6 @@
 }
 
 .styledLink{
-    font-weight: bold;
-    text-transform: uppercase;
     color: #000;
     font-size: .9em;    
 }
@@ -52,17 +50,13 @@
     color: #58595b;
 }
 
-.menuContainerNav--brand-class{
-    width: 85px;
-    border-bottom: 1px solid #15b103;
-}
-
 .menuContainer--brand-class{
     width: 100%;
 }
 
 .menuContainer--brand-class .menuItem{
     width: 100%;
+    padding: 0px 20px;
 }
 
 .menuContainer--brand-class .menuItem .styledLinkContainer{
@@ -74,7 +68,6 @@
 }
 
 .menuContainer--brand-class .styledLink{
-    font-weight: 600;
     font-size: 15px;
     color: #15b103;
     text-transform: Capitalize;
@@ -93,14 +86,17 @@
 }
 
 .menuContainer--brand-class:hover{
-    background: #f4f4f4;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.menuContainerNav--brand-class{
-    width: 85px;
-    border-bottom: 1px solid #15b103;
+.menuContainer--brand-class .menuItem:hover{
+    background: #f4f4f4;
+}
+
+.menuContainer--brand-class .menuItem{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .submenuContainer--brands-submenu .menuContainer .menuItem{
