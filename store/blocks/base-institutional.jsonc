@@ -1,5 +1,5 @@
 {
-    "store.custom#basic-institutional": {
+    "store.custom#basical-institutional": {
       "blocks": [
         "flex-layout.row#about-us"
       ]
@@ -46,4 +46,4 @@
         "blockClass": "about"
       }
     }
-  }
+}
