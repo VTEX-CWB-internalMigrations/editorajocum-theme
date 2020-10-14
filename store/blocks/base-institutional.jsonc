@@ -9,7 +9,10 @@
       "children": [
         "image#mobile-phone",
         "flex-layout.col#text-about-us"
-      ]
+      ],
+      "props":{
+        "blockClass": "about-us-flex"
+      }
     },
   
     "flex-layout.col#text-about-us": {

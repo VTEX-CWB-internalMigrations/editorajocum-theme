@@ -166,7 +166,8 @@
   },
   "image#accepted-payments":{
     "props":{
-      "src": "https://editorajocum.vteximg.com.br/arquivos/payments.png"
+      "src": "https://editorajocum.vteximg.com.br/arquivos/payments.png",
+      "blockClass": "payments"
     }
   },
   
