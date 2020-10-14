@@ -91,6 +91,7 @@
       "flex-layout.row#result"
     ],
     "props": {
+      "showFacetQuantity": true,
       "pagination": "show-more",
       "installmentCriteria": "MAX_WITH_INTEREST",
       "mobileLayout": {
@@ -189,6 +190,7 @@
       "flex-layout.row#contentmobile"
     ],
     "props": {
+      "showFacetQuantity": true,
       "pagination": "show-more",
       "mobileLayout": {
         "mode1": "normal",
