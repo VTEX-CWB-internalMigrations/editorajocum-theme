@@ -184,7 +184,7 @@
 }
 
 .specificationsTabsContainer :global(.vtex-tab__button--active){
-  border-bottom: 2px solid #f7eb14;
+  border-bottom: 2px solid #15b103;
 }
 
 .specificationsTitle{
@@ -410,7 +410,7 @@
   }
 
   .form .buttonContainer :global(.vtex-button){
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
 
   .shippingTableLabel{
