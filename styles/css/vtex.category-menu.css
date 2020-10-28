@@ -28,6 +28,7 @@
 
 .container{
   max-width: fit-content;
+  max-width: -moz-fit-content;
   height: 60px;
 }
 
