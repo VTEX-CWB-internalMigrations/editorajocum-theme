@@ -146,8 +146,6 @@
 .flexRow--last-footer-row{
     background: #ececec;
 }
-.flexRow--breadcrumb-box{
-}
 
 .flexColChild--payment-methods{
     display: flex;
@@ -157,6 +155,11 @@
 
 .flexRowContent--about-us-flex{
     margin: 35px 0px;
+}
+
+.flexRowContent--confirmationButtons .flexColChild{
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 40em){
